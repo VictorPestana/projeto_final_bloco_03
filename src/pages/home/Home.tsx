@@ -6,6 +6,7 @@ function Home() {
                 bg-red-500
                 flex 
                 justify-center 
+                h-screen
                 "
       >
         <div
@@ -14,6 +15,7 @@ function Home() {
                     grid 
                     grid-cols-2 
                     text-black
+                    h-full
                     "
         >
           <div
@@ -28,7 +30,7 @@ function Home() {
           >
             <h2
               className="
-			  				text-white
+                text-white
                             text-5xl 
                             font-bold
                             "
@@ -46,7 +48,7 @@ function Home() {
                                     text-white-900 
                                     py-2 
                                     px-4
-                                    '>Cadastrar Produto</button>
+                                    '>Cadastrar Categoria</button>
                         </div>
                     </div>
 
@@ -54,7 +56,7 @@ function Home() {
             <img
               src="https://ik.imagekit.io/vzr6ryejm/farmacia/home.png?updatedAt=1725625779667"
               alt="Imagem Página Home"
-              className="w-2/3"
+              className="w-2/3 object-contain"
             />
           </div>
         </div>
